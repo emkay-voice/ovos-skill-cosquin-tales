@@ -3,7 +3,7 @@
   "source": "https://github.com/emkay-voice/ovos-skill-cosquin-tales",
   "package_name": "ovos-skill-cosquin-tales",
   "pip_spec": "ovos-skill-cosquin-tales",
-  "license": "GPL-3.0-or-later",
+  "license": "Apache-2.0",
   "author": "emkay-voice",
   "name": "Cosquin Tales (provider)",
   "description": "Emmanuel Cosquin's Lorraine folk tales provider for ovos-common-reading-pipeline-plugin. French only, no translation.",
