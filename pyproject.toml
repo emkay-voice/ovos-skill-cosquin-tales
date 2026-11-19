@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-cosquin-tales"
+version = "0.2.0a1"
+description = "Emmanuel Cosquin's Lorraine folk tales provider for ovos-common-reading-pipeline-plugin. French only, no translation."
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+authors = [{name = "Andreas Lorensen"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "voice", "assistant", "fairytales", "folklore", "french", "lorraine", "storytelling", "emkay"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Home Automation",
+]
+dependencies = [
+    "ovos-workshop>=0.0.15,<10.0.0",
+    "requests",
+    "bs4",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-skill-cosquin-tales"
+Issues = "https://github.com/emkay-voice/ovos-skill-cosquin-tales/issues"
+Emkay = "https://github.com/emkay-voice/emkay"
+Icon = "https://raw.githubusercontent.com/emkay-voice/ovos-skill-cosquin-tales/main/story-512.png"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-cosquin-tales.emkay-voice" = "ovos_skill_cosquin_tales:CosquinTales"
+
+[tool.setuptools]
+packages = ["ovos_skill_cosquin_tales"]
+
+[tool.setuptools.package-dir]
+ovos_skill_cosquin_tales = ""
+
+[tool.setuptools.package-data]
+ovos_skill_cosquin_tales = ["locale/**/*", "*.png"]

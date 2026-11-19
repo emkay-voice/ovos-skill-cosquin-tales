@@ -10,7 +10,10 @@ comparative scholarly notes ("Remarques") on how each tale relates to
 variants told elsewhere in France and abroad (excluded from what's read
 aloud - see below).
 
-[![Tests](https://github.com/andlo/ovos-skill-cosquin-tales/actions/workflows/test.yml/badge.svg)](https://github.com/andlo/ovos-skill-cosquin-tales/actions/workflows/test.yml)
+It is part of [Emkay](https://github.com/emkay-voice/emkay), OpenVoiceOS in
+the browser, and works on any [OpenVoiceOS](https://openvoiceos.org).
+
+[![Build](https://github.com/emkay-voice/ovos-skill-cosquin-tales/actions/workflows/publish.yml/badge.svg)](https://github.com/emkay-voice/ovos-skill-cosquin-tales/actions/workflows/publish.yml)
 [![PyPI version](https://img.shields.io/pypi/v/ovos-skill-cosquin-tales.svg)](https://pypi.org/project/ovos-skill-cosquin-tales/)
 
 > **This skill has no standalone voice interface.** It registers no
@@ -73,7 +76,7 @@ it is not tried again for five minutes, and an older copy is read
 meanwhile if there is one. When the cache directory cannot be written,
 the book's stories are kept in memory instead. Requests say who is
 asking:
-`ovos-skill-cosquin-tales/<version> (+https://github.com/andlo/ovos-skill-cosquin-tales)`.
+`ovos-skill-cosquin-tales/<version> (+https://github.com/emkay-voice/ovos-skill-cosquin-tales)`.
 
 What is read is the tale, with its songs line by line (the doe's song in
 *La Biche blanche* is a `<div class="verse">` and used to be skipped),

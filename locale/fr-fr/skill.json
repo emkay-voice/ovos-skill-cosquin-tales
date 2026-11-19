@@ -1,10 +1,10 @@
 {
-  "skill_id": "ovos-skill-cosquin-tales.andlo",
-  "source": "https://github.com/andlo/ovos-skill-cosquin-tales",
+  "skill_id": "ovos-skill-cosquin-tales.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-cosquin-tales",
   "package_name": "ovos-skill-cosquin-tales",
   "pip_spec": "ovos-skill-cosquin-tales",
   "license": "GPL-3.0-or-later",
-  "author": "andlo",
+  "author": "emkay-voice",
   "name": "Contes de Cosquin (fournisseur)",
   "description": "Fournisseur des contes populaires de Lorraine d'Emmanuel Cosquin pour ovos-common-reading-pipeline-plugin. Uniquement en français, sans traduction.",
   "examples": [
@@ -19,5 +19,5 @@
     "french",
     "provider"
   ],
-  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-cosquin-tales/main/story-512.png"
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-cosquin-tales/main/story-512.png"
 }

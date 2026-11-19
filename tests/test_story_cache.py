@@ -198,7 +198,7 @@ def test_the_user_agent_names_the_skill_its_version_and_repo(lorraine, gutenberg
     user_agent = sent["headers"]["User-Agent"]
     assert user_agent == skill_module.USER_AGENT
     assert user_agent.startswith(f"ovos-skill-cosquin-tales/{skill_module.SKILL_VERSION} ")
-    assert "(+https://github.com/andlo/ovos-skill-cosquin-tales)" in user_agent
+    assert "(+https://github.com/emkay-voice/ovos-skill-cosquin-tales)" in user_agent
     assert "If-Modified-Since" not in sent["headers"]
     assert sent["timeout"] == skill_module.FETCH_TIMEOUT
 
